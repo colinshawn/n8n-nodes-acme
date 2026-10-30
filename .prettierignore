@@ -1,0 +1,27 @@
+# Generated files and dependencies
+node_modules/
+dist/
+build/
+out/
+lib/
+coverage/
+.nyc_output/
+.cache/
+*.tsbuildinfo
+package-lock.json
+
+# Local runtime data and generated certificate material
+.n8n/
+.n8n-node-cli/
+.credentials/
+.workflow/
+.webhook/
+*.pem
+*.key
+*.csr
+*.crt
+*.cer
+*.der
+*.p12
+*.pfx
+*.jks

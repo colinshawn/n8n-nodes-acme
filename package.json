@@ -1,9 +1,9 @@
 {
 	"name": "n8n-nodes-acme",
 	"version": "0.1.0",
-	"description": "",
+	"description": "n8n community nodes for ACME certificate issuance, certificate utilities, and DNS TXT validation.",
 	"license": "MIT",
-	"homepage": "",
+	"homepage": "https://github.com/colinshawn/n8n-nodes-acme#readme",
 	"keywords": [
 		"n8n-community-node-package",
 		"acme",
@@ -23,11 +23,18 @@
 		"dev": "n8n-node dev",
 		"lint": "n8n-node lint",
 		"lint:fix": "n8n-node lint --fix",
+		"format": "prettier --write .",
+		"format:check": "prettier --check .",
 		"release": "n8n-node release",
 		"prepublishOnly": "n8n-node prerelease"
 	},
 	"files": [
-		"dist"
+		"dist/**/*.js",
+		"dist/**/*.js.map",
+		"dist/**/*.d.ts",
+		"dist/**/*.json",
+		"dist/**/*.svg",
+		"dist/**/*.png"
 	],
 	"n8n": {
 		"n8nNodesApiVersion": 1,
